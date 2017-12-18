@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agenda de Contactos</title>
+</head>
+<body>
+   <header>
+       <div class="row" id="menu">
+           <div class="col s12 l12 xl12" id="contenido">
+                <nav>
+                    <div class="nav-wrapper">
+                        <a href="#!" class="brand-logo">Lista de Contacto</a>
+                        <a href="#!" class="right">jquery</a>
+                        <ul class="right hide-on-med-and-down">
+                            <li class="modal-btn"><a class="waves-effect waves-light btn"><i class="material-icons">add</i></a></li>
+                            <li><a class="waves-effect waves-light btn"><i class="material-icons">search</i></a></li>
+                        </ul>
+                    </div>
+                </nav>
+           </div>
+       </div>
+   </header>
+    <!-- modal ================================================================================================== -->
+    <section class="modal-container"></section>
+        <div class="modal-container">
+            <div class="modal-content">
+                <h4>Contactos</h4>
+                <div class="row">
+                    <form class="l6 xl6">
+                        <div class="cont">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="cont">
+                            <i class="material-icons prefix">phone</i>
+                            <input type="text" id="phone">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" id="agregar" class="modal-close btn grey">Agregar</a>
+            </div>
+            <div class="modal-prueba"></div>
+        </div>
+    </section>
+    <!-- contactos ================================================================================================== -->
+    <section class="container">
+        <div class="row" id="show-agregar"></div>
+    </section>
+    
+
+
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

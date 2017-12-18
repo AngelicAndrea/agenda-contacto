@@ -1,0 +1,65 @@
+#menu{
+    margin: 0;
+    padding: 0;
+}
+#contenido{
+    padding: 0;
+}
+/* modal ========================================================================================== */
+.modal-prueba {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    visibility: hidden; /* hace invisible este elemento */
+    opacity: 0;
+    
+}
+.modal-container {
+    position: fixed;
+    max-width: 780px;
+    top: 50%;
+    left: 50%;
+    z-index: 200;
+    text-align: left;
+    width: 90%;
+    visibility: hidden; /* hace invisible este elemento */
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.modal-content h4{
+    margin-left: 1em;
+}
+.modal-footer{
+    margin-left: 1em;
+}
+
+.modal--show {
+    visibility: visible; /* hace visible este elemento */
+    background-color: #eeeeee;
+    height: 17em;
+    width: 35%;
+}
+.cont{
+    padding: 1em;
+    display: inline-block;
+}
+#name, #phone{
+   width: 100%;
+}
+.subtitle{
+    display: inline-block;
+    margin-right: 75%;
+    padding: 1%;
+    margin-top: 0;
+}
+.title{
+    text-transform: uppercase;
+}
+#box{
+    margin-top: 2%;
+}
